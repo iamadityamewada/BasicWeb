@@ -1,0 +1,78 @@
+1. typeof(data)
+   typerof data
+         - check data types of data
+2. Method to convert string number to number 
+     1. By using + or -
+             console.log(+data + age) // convert into postive number
+             console.log(-data + age) // convert into nagative number
+     2. By using funcion 
+            1.Number(age) if string is pass then return NaN
+     3. By using another funcion 
+            1. parseInt() return the int value from the string from starting 
+            2. parseFloat() 
+diff b/w let , var and const
+3. var:-
+      is a global scope variable
+      support hoisting
+   let:-
+      is a blocks cope variable
+   const:-  
+      is a blocks cope variable
+      cannot reasign the value     
+                         
+ Diff b/w undefined Nan and Null
+ undefined 
+      not define any value // when decalare a variable but not assign any value it will automatically send it to the top of file 
+      type of undefined is undefined
+ Null 
+      define null value // it is a value
+      type of null is object 
+?? age; when directly assign the value  return refernce error ??need variable type or data to assign default var
+
+Hositing 
+      Hoisting is a JavaScript mechanism where variables,
+       function declarations and classes are moved to the top of their scope before code execution. 
+      Remember that JavaScript only hoists declarations, not initialisation.     
+
+?? if a vairable again declare inside a block it act as per the block 
+                                   
+Dynamic string or templete literals
+      ` this templete litersl ${vairable}`
+
+Compare Operator
+!==   === match value and data types both // strict match
+!=   == match value only not data types
+
+?? Undefine + anything return NaN
+Undefine + Undefine = NaN
+NaN + anything return NaN
+Undefined + NaN = NaN 
+function by default return the undefined
+
+
+02/05/24
+closure function is concept in javascript in which inner function can access the declare variable
+and funcion of a outer function even after the execution of outer function.
+
+curing function is chain of returning functon.
+setTimeOut = 
+setInterval = execution of task again again after particular frquency
+
+templete lierals = used to make string dynamic 
+
+
+          //                 14/05/2024
+          array method 
+            slice,splice[return:- array of deleted item],push,pop,indexOf,join(return type string),reverse,includes,sort, toSorted
+            //    16/05/2024
+            array method
+            // for Each , map -- same as for loop
+            // filter and find -- find element of (s)
+            // some and every -- output will ve true /false
+
+
+            diff bw filter and map 
+            some and every home work 
+// 17/05/24s
+some and every             
+

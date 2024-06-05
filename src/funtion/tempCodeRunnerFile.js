@@ -1,0 +1,4 @@
+;
+}
+
+Greet("Aditya", getEveningMsg);

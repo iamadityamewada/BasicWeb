@@ -1,0 +1,84 @@
+
+. = represents current path
+.. = exit form current path
+/ = give the folder from root path.. ex- /basicweb == it finds the basicwed folder name in c drive
+../ = ek he folder me rehkr bina usse bahr nikle dusre file ko execute krta h jo usi folder me available h
+
+1. typeof / typeof() == check datatype / return datatype
+2. string has more priority than number
+3. we have different methods to convert string to number
+ a. +var_name    ex-console.log(+age + 2) where, age = "23.3"
+ b. different function used to do this task
+     console.log(Number(age)) , Number is the function
+ c. give results in specific type
+   console.log(parseInt(age))  , parseInt only pass the int value, dosenot change the value
+   console.log(parseFloat(age) + 2)  , output=25.3
+
+4. Dataypes in Js
+After AES-6 JS has 3 types of datatypes
+var
+Let
+Const
+Difference between VAR , Cont and Let
+ Var is global scope variable as well as functional scope variable, var supports hoisting
+ Let is block scope variable
+ Const is block scope variable
+Let is Reassignable but Const is not Reassiagnable variable
+
+
+5. Keywords in Js
+a.undefined = memeory doesnot allocate to it
+b.Null = Null is a value. Type of(Null) = object
+c.Nan = Not a Number
+
+6.JS want whether data or datatype
+ex- age; // error , var age or age =12 // correct
+
+7. isNan- check whether is there any number in string or not.
+
+7. hoisting = var supports hoisting
+Hoisting is the process which sends all the declared variable on the top of the program/file and it supports only with var datatype but not the value assign to it.
+Hoisting is the process or techniques whenever we declare a variable using var keyword it automatically send the the declared variable on the top of the file, and let and const doesnot supports hoisting.
+8. if u declare variable within the specific block then it leaves the global declare value and works on variable declare under the bloc
+
+9. convert it in dynamic string
+ ex- let temp = 24
+     let tt = 12
+     let msg = `Todays temp is ${temp} and tomorrow is ${tt}`
+     console.log(msg)
+
+10. == & ===
+== - check only data
+=== - check datatype as well as data, known as strict check
+!= only data
+!== both data and it's type
+! - not is used with any variable in Js
+ex- let isPass = false
+console.log(!isPass)
+
+ex- let pass = "anshuyy"
+console.log(!!pass);
+console.log(!pass);
+console.log(!!!pass);
+
+11. & operator returns last matching condition result or 1st failing condition ka result milega
+    ! operator returns 1st true matching condition and last failing condition return
+    
+12. undefined + undefined = Nan
+12. 12 + undefined = Nan
+
+
+13. closure is a concept in j.s when an inner function can execute the declared variable of the outer function even after the end of outer function.
+14. arrow function doesnot support hoisting. where as normal function can.
+15. curing function - chain of returning function calling.
+16. higher order function - the function which accept function as a parameter and return a function.
+17. call back function- a function which executes after the completion of main function.
+18. template literals - to make the string dynamic.
+19. lambda function- one order function., no use of curly braces, instated write a statement.
+20. setTimeout is a higher order function. whenever we have to execute a task after a certain period of time we use settimeout. it take two argument.
+21. setInterval- to give a gap between the function
+22. iffe- when we have to execute the function immediately after the calling of function.
+23. methods on array- 1.slice, 2.join, 3.splice, 4.indexOf, 5.push, 6.pop
+24. methods of string- 1.toUppercase, 2.toLowercase, 3.replace, 4.trim, 5.trimStart, 6.trimEnd, 7.slice, 8.charAt, 9.charCodeAt 10.repeat, 11.split
+25.two different possibilities to iterate array - 1. for loop , 2. for (let i of array)
+26.es6 new feature - let , const, arrow function, rest, and spread operator
