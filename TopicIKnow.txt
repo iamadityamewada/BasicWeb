@@ -1,0 +1,12 @@
+                                        javascript
+ vairable - let, cons, var , hoisting;
+ datatypes - number, string, boolean , 
+ conditional statement
+ loop:
+ funcion
+ arrow funcion
+ array & Method  slice , splice, push , pop , indexOf , sort , toSorted , includes , 
+ string & Method
+ object
+
+Doubt ...rest and spread
