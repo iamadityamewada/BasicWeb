@@ -74,5 +74,7 @@ templete lierals = used to make string dynamic
             diff bw filter and map 
             some and every home work 
 // 17/05/24s
-some and every             
+some and every
+
+
 

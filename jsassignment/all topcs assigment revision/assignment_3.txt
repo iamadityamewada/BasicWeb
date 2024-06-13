@@ -1,0 +1,99 @@
+
+1. Print the length of the string. 
+2. Change all the string characters to capital letters
+3. print the first word from a string.
+4. Change "Welcome to JS Class" to "Welcome to JavaScript Class".
+
+5.	let myAge = 250
+	let yourAge = 25 
+	Output Should be: I am 225 years older than you.
+
+6. write a function which takes a number as a arg, and check that given number is Even or odd and return true if even else false.	
+	a. with If else 
+	b. with ternary operator.
+
+7. Write a function which takes the string and depay time, and print the string after passed delay time.
+
+8. Create a function, which takes a counter time, and start printing the count value till 0.
+
+9. Create a function which takes a n numbers as an args, return the sum of all the args.
+
+10, Create a function, which takes n number of args, and return sum of all the args, except first 2 args.
+
+11. Create a function, which takes n number of args, and return sum of last 3 args. 
+
+12. Create a function, which takes n number of args, and return two values.
+			V1: difference b/w min and max number from all the elements.
+
+			v2. difference b/w min and second max number from all the elements.
+
+		Hint: You can use sort methods of array. 
+			   If you have to return more then one value from a function, So you can return a array from that function. And later you de-strectutre it.
+
+
+
+/// Data Set for next few questions.
+const users = {
+  Alex: {
+    email: 'alex@alex.com',
+    skills: ['HTML', 'CSS', 'JavaScript'],
+    age: 20,
+    isLoggedIn: false,
+    points: 30
+  },
+  Asab: {
+    email: 'asab@asab.com',
+    skills: ['HTML', 'CSS', 'JavaScript', 'Redux', 'MongoDB', 'Express', 'React', 'Node'],
+    age: 25,
+    isLoggedIn: false,
+    points: 50
+  },
+  Brook: {
+    email: 'daniel@daniel.com',
+    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux'],
+    age: 30,
+    isLoggedIn: true,
+    points: 50
+  },
+  Daniel: {
+    email: 'daniel@alex.com',
+    skills: ['HTML', 'CSS', 'JavaScript', 'Python'],
+    age: 20,
+    isLoggedIn: false,
+    points: 40
+  },
+  John: {
+    email: 'john@john.com',
+    skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Node.js'],
+    age: 20,
+    isLoggedIn: true,
+    points: 50
+  },
+  Thomas: {
+    email: 'thomas@thomas.com',
+    skills: ['HTML', 'CSS', 'JavaScript', 'React'],
+    age: 20,
+    isLoggedIn: false,
+    points: 40
+  },
+  Paul: {
+    email: 'paul@paul.com',
+    skills: ['HTML', 'CSS', 'JavaScript', 'MongoDB', 'Express', 'React', 'Node'],
+    age: 20,
+    isLoggedIn: false,
+    points: 40
+  }
+}
+
+13. Get the details of user where user age is greater then 20.
+14. Get the details of user who isLoggedIn. 
+15. Get the details of user who have worked on Node and MongoDB.
+16. Change the age of "Paul" with sprade operator.
+17. Add two new skills in "Alex" skills array. (Python, Django)
+
+18. Create a closure which has one inner function, and this inner function should be returned by outer function. 
+
+19. Create a function, which take one args, one callback. 
+	And this callback should be executed, after loging the "Welcome to TSP".
+	
+20. Create a function, which takes a array of marks, and return two things, min marks, and one function, and if we execute that function it should return the average of marks.
