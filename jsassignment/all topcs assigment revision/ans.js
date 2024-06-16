@@ -197,7 +197,11 @@ Object.keys(users).filter((keys)=>{
 })
 console.log(out3);
 
+// 16. Change the age of "Paul" with sprade operator.
 
+
+
+// 17. Add two new skills in "Alex" skills array. (Python, Django)
 
 
 
@@ -250,3 +254,60 @@ let [minMarks,AvgMarks] = res;
 console.log("Minimum Marks: ",minMarks);
 console.log("Average Mark is: ",avgMarks([2,3,43,56,23]));
 
+
+
+// new
+
+
+// let arr = ["Adi","Aditya","Adiii","Ady"];
+// let arr2 = [];
+// arr2 = arr.map((val,index,arr)=> {
+//  return arr[index].slice(0,2).toUpperCase()+arr[index].slice(2,arr[index].length).toLowerCase()
+// })
+// // arr.forEach((val,index)=>{
+// //   arr2[index] = val.toUpperCase();
+// //   //console.log(val.toUpperCase());
+// // })
+// // // console.log(arr);
+// console.log(arr2);
+
+let detail={
+  paras:{
+    age:21
+  },
+  samayak:{
+    age:19
+  },
+  vishnu:{
+    age:20
+  }
+}
+
+// detail.samayak.age = 21;
+// details ={...detail,samayak:{...details.samayak, age:21}}
+let key = Object.keys(detail);
+// console.log(key);
+
+// key.map((key)=>{
+//   // console.log(detail[val]);
+//   if(detail[key].age>19){
+//     console.log(detail[key]);
+//   }
+// })
+
+// let arr3 = []
+//  key.map((key)=>{
+//   // console.log(detail[val]);
+//   if(detail[key].age>19){
+//     arr3.push(detail[key])
+//   }
+// })
+// console.log(arr3);
+
+let obj = {}
+ key.map((key)=>{
+  if(detail[key].age>19){
+    obj[key] = detail[key];
+  }
+})
+console.log(obj);
