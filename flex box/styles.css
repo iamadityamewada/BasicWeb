@@ -1,0 +1,40 @@
+/* .box{
+   width: 50px;
+   height: 50px;
+   border-radius: 4px;
+   background-color:#fcc000 ;
+   transition: 1s;
+} */
+
+/* .box:hover{
+    background-color: green;
+    transform: scale(0.5) rotate(45deg);
+    margin-left: 30px;
+} */
+
+.container{
+    width: 100%;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border: 4px solid#fcc000;
+    border-radius: 50%;
+    border-bottom: 4px solid grey;
+    /* transition: 1s; */
+    animation: rotate 1s infinite linear;
+ }
+
+ @keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+        transform: translate(0%);
+    }
+    50%{
+        transform: translate(50%);
+    }
+    100%{
+        transform: rotate(360deg);
+        transform: translate(0%);
+    }
+ }
