@@ -29,5 +29,14 @@
 //   myObject.myMethod();
 
 
+// let arr = [1,3,2,'r',6];
+// console.log(typeof(arr));
 
+// arr2={
+//     1:'1',
+//     2:'2'
+// }
+// console.log(typeof arr2);
+
+console.log);
   
